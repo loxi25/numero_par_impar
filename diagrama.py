@@ -1,7 +1,11 @@
-numero=input("dijite el numero: ")
+ # input
+num= int(input("ingrese un numero"))
 
-numero=int(numero)
+#processing
 
-r=numero%2
+if num % 2 == 0:
 
-if 
+    print("es par.") #output
+
+else:
+    print("no es par.") #output
